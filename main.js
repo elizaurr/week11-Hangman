@@ -4,7 +4,7 @@ prompt.start();
 var Word = require("./word.js");
 
 var game = {
-  wordBank: ["Work","Experience","Excellent","Test"],
+  wordBank: ["baseball","football","basketball","soccer","tennis","golf","track"],
   guessesRemaining : 10,
   currentWrd : null,
   startGame : function(wrd){
